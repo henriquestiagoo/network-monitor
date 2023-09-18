@@ -64,7 +64,13 @@ class ViewController: UIViewController {
 }
 ```
 
-> A DispatchQueue is being used to manage the network changes, so don't forget to switch to the Main Thread if you want to update the UI. 
+> A DispatchQueue is being used to manage the network changes, so don't forget to switch to the Main Thread if you want to update the UI.
+
+
+## Note
+
+You may find unexpected results using the simulator. I recommend, if possible, to test in a real device.
+ 
 
 ## Reporting Issues and Contributing
 
